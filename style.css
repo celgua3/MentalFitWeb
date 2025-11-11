@@ -1,0 +1,204 @@
+/* Reset de márgenes y paddings globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body: Fuente, color de fondo y texto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f8f2;
+    color: #333;
+}
+
+/* Estilo del header */
+header {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .cabecin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header .header-left img {
+    max-width: 40px;
+}
+
+header .header-left h1 {
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+/* Navegación */
+nav {
+    background-color: #16a085;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a, .dropdown button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+nav a:hover, .dropdown button:hover {
+    background-color: #1abc9c;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #16a085;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav .dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav .dropdown-content a:hover {
+    background-color: #1abc9c;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Títulos principales */
+main h2 {
+    color: #1abc9c;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+/* Texto del contenido */
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    font-size: 1.1rem;
+    color: #555;
+    padding: 8px 0;
+}
+
+main ul li:before {
+    content: "✔️";
+    margin-right: 10px;
+}
+
+/* Botones */
+button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo específico para las páginas (Descarga, Información, Servicios) */
+.page-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Agregar un espacio entre cada sección */
+.page-content h2 {
+    margin-top: 0;
+}
+
+.page-content p {
+    margin-bottom: 20px;
+}
+
+.page-content ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Responsividad para dispositivos pequeños */
+@media screen and (max-width: 768px) {
+    header .cabecin {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a, .dropdown button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+
+    .page-content {
+        width: 95%;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
