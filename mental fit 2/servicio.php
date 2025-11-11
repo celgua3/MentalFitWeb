@@ -1,0 +1,37 @@
+<?php
+// servicios.php
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servicios | Mental Fit</title>
+  <link rel="stylesheet" href="st.css">
+</head>
+<body>
+
+<header class="cabecin">
+  <div class="header-left">
+    <img src="fifa.png" alt="Logo Mental Fit" class="logo" onclick="history.back();">
+    <h1 class="inicio">Servicios de Mental Fit</h1>
+  </div>
+</header>
+
+<main>
+  <h2>¿Qué servicios ofrecemos?</h2>
+  <ul>
+    <li>Planes de ejercicio personalizables para todos los niveles</li>
+    <li>Sesiones de meditación y mindfulness para reducir el estrés</li>
+    <li>Consejos de nutrición para llevar una dieta equilibrada</li>
+    <li>Seguimiento continuo de tu progreso físico y mental</li>
+  </ul>
+  <p>¡Descubre todos nuestros servicios y comienza a cuidar tu bienestar hoy mismo!</p>
+</main>
+
+<footer>⚽ Mental Fit - Cuidando tu cuerpo y mente ⚽</footer>
+
+<a href="sistema.php">Inicio</a>
+
+</body>
+</html>

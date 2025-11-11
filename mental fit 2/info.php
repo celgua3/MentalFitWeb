@@ -1,0 +1,33 @@
+<?php
+// info.php
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acerca de Mental Fit | Salud Mental y Física</title>
+  <link rel="stylesheet" href="st.css">
+</head>
+<body>
+
+<header class="cabecin">
+  <div class="header-left">
+    <img src="fifa.png" alt="Logo Mental Fit" class="logo" onclick="history.back();">
+    <h1 class="inicio">Acerca de Mental Fit</h1>
+  </div>
+</header>
+
+<main>
+  <h2>¿Qué es Mental Fit?</h2>
+  <p>Mental Fit es una plataforma dedicada a mejorar tu bienestar físico y mental mediante planes personalizados de ejercicio, meditación, y consejos de nutrición.</p>
+  <p>Nos enfocamos en ayudarte a lograr un balance perfecto entre mente y cuerpo para llevar una vida saludable y equilibrada.</p>
+  <p>¡Conviértete en la mejor versión de ti mismo con Mental Fit!</p>
+</main>
+
+<footer>⚽ Mental Fit - Cuidando tu cuerpo y mente ⚽</footer>
+
+<a href="sistema.php">Inicio</a>
+
+</body>
+</html>
