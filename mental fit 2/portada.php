@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mental Fit - Bienestar Físico y Mental</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<header>
+  <h1>Mental Fit - Salud Física y Mental</h1>
+</header>
+
+<img src="mentalfit_logo.png" alt="Logo Mental Fit" class="logo-top-left">
+<img src="mentalfit_logo.png" alt="Logo Mental Fit Derecho" class="logo-top-right">
+
+<main>
+  <h2>Contexto del Sistema</h2>
+  <p>
+    Mental Fit es un sistema web diseñado para ayudar a las personas a mejorar su bienestar físico y mental. 
+    Ofrecemos planes de ejercicio personalizados, sesiones de meditación guiada y consejos sobre nutrición saludable. 
+    Nuestro objetivo es adaptar cada plan a tu ritmo, para que puedas mejorar tu salud de manera gradual y sostenible.
+  </p>
+
+  <h2>Características Clave</h2>
+  <ul>
+    <li>Planes personalizados de ejercicios físicos adaptados a tu nivel</li>
+    <li>Sesiones de meditación y mindfulness para reducir el estrés</li>
+    <li>Consejos y seguimiento sobre nutrición y hábitos saludables</li>
+    <li>Enfoque integral para la salud mental y física</li>
+  </ul>
+
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="sistema.php">
+      <button style="padding: 10px 20px; font-size: 1rem; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Comienza tu Camino hacia el Bienestar
+      </button>
+    </a>
+  </div>
+</main>
+
+<footer>
+  Proyecto de Bienestar | Desarrollado con ❤️ para cuidar tu salud física y mental
+</footer>
+
+</body>
+</html>

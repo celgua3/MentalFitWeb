@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mental Fit</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Mental Fit</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="info.html">Información</a>
+        <a href="servicios.html">Descargar</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <h1>Cuida tu mente y tu cuerpo en un solo lugar</h1>
+    <p>
+        Mental Fit es una aplicación creada para ayudar a las personas a
+        mejorar su bienestar mental de una manera sencilla. Muchas veces
+        el estrés, la escuela o el trabajo pueden afectar cómo nos sentimos,
+        y esta app busca ser una herramienta simple para apoyarte.
+    </p>
+
+    <p>
+        Aquí podrás encontrar ejercicios mentales, seguimiento emocional
+        y recomendaciones para mantener un equilibrio mental saludable.
+        La idea es que cualquier persona pueda usarla sin complicaciones.
+    </p>
+
+    <!-- BOTON DESCARGA -->
+  
+</section>
+
+<section class="features">
+
+    <div class="feature">
+        <h3>Salud mental</h3>
+        <p>
+            Lleva un registro de tu estado de ánimo y aprende a identificar cómo te sientes
+            día a día para mejorar tu bienestar emocional.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Ejercicio físico</h3>
+        <p>
+            Accede a imágenes y guías simples para realizar ejercicios correctamente
+            desde casa o en el gimnasio.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Nutrición</h3>
+        <p>
+            Consulta información básica y contacta con nutriólogos para mejorar
+            tu alimentación de forma saludable.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Contactos</h3>
+        <p>
+            Podras encontrar contactos con profesionales que ayudaron con la creacion de la aplicacion.
+        </p>
+    </div>
+
+</section>
+
+</main>
+
+
+<script>
+function toggleMenu(){
+document.querySelector('.nav-links').classList.toggle('active');
+}
+</script>
+</body>
+</html>

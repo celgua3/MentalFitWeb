@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mental Fit - Salud Mental y Física</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<header class="cabecin">
+  <div class="header-left">
+    <img src="fifa.png" alt="Logo Mental Fit" class="logo" onclick="history.back();">
+    <h1 class="inicio">Bienvenido a Mental Fit</h1>
+  </div>
+
+  <nav class="nav-links">
+    <!-- Solo las opciones relevantes -->
+    <div class="dropdown">
+      <button class="dropbtn">Descarga ▼</button>
+      <div class="dropdown-content">
+        <a href="descarga.php">App disponible</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Información ▼</button>
+      <div class="dropdown-content">
+        <a href="info.php">Acerca de Mental Fit</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Servicios ▼</button>
+      <div class="dropdown-content">
+        <a href="servicio.php">Planes de Ejercicio</a>
+      </div>
+    </div>
+
+    <a href="portada.php">Inicio</a>
+  </nav>
+</header>
+
+<main>
+  <div id="contenido"></div>
+</main>
+
+<footer>⚽ Mental Fit - Cuidando tu cuerpo y mente ⚽</footer>
+
+</body>
+</html>

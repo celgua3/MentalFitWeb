@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios - Mental Fit</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Mental Fit</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="info.html">Información</a>
+        <a href="servicios.html" class="active">Descargar</a>
+    </nav>
+</header>
+
+<main class="content">
+
+<h1>Servicios de Mental Fit</h1>
+
+<div class="card">
+    <h3>Seguimiento emocional</h3>
+    <p>
+        Permite registrar cómo te sientes cada día para ayudarte a entender
+        tus emociones y mejorar tu bienestar mental.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Guía de ejercicios</h3>
+    <p>
+        Incluye imágenes y explicaciones para realizar ejercicios físicos caseros
+        correctamente.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Nutrición</h3>
+    <p>
+        Proporciona información básica sobre alimentación saludable y permite
+        contactar con nutriólogos para recibir orientación profesional.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Contactos</h3>
+    <p>
+        Proporcionamos los contactos de quienes avalaron la aplicacion.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Bienestar integral</h3>
+    <p>
+        Mental Fit combina mente y cuerpo para ayudarte a crear hábitos
+        saludables que mejoren tu vida diaria.
+    </p>
+</div>
+
+<div class="download-section"><a href="mentalfit.apk" class="btn" download>Descargar la app</a></div></main>
+
+
+
+
+<script>
+function toggleMenu(){
+document.querySelector('.nav-links').classList.toggle('active');
+}
+</script>
+</body>
+</html>
